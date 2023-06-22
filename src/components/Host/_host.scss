@@ -1,0 +1,22 @@
+@import '../../styles/setting';
+
+.k-host-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.k-host-name {
+  font-size: 1.8rem;
+  text-align: end;
+  padding-right: 10px;
+
+}
+
+.k-host-img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: gray;
+}

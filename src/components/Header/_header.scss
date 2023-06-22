@@ -1,0 +1,34 @@
+@import '../../styles/setting';
+
+.k-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1240px;
+  margin-bottom: 46px
+}
+
+.k-nav-links {
+  // font-size: 2.4rem;
+  display: flex;
+  gap: 50px;
+  font-size: clamp(1.5rem, 2.5vw, 2.4rem)
+}
+
+.k-nav-links a {
+  color: $red;
+}
+
+.k-logo {
+  width: clamp(145px, 20vw, 211px);
+}
+
+@media screen and (max-width: 430px) {
+  .k-nav-links {
+   gap: 20px;
+  }
+}
+
+
+

@@ -1,0 +1,23 @@
+@import '../../styles/setting';
+
+.k-home-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 340px); 
+  justify-content: center;
+  height: auto;
+  padding: 4%;
+  gap: 5rem; 
+  max-width: 1240px;
+  background-color: $gray;
+  border-radius: 25px;
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 430px) {
+  .k-home-container {
+    gap: 20px;
+    background-color: white;
+  }
+}

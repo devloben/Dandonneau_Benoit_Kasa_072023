@@ -1,0 +1,21 @@
+@import '../../styles/setting';
+.k-error, a {
+  color: $red;
+  text-align: center;
+  
+}
+.k-error-404{
+  font-size: 22.8rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.k-error-text {
+  font-weight: 500;
+  font-size: 3.6rem;
+  margin-bottom: 50px;
+}
+
+.k-error-link {
+  line-height: 200px;
+}
