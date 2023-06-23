@@ -3,10 +3,7 @@ import { Link } from "react-router-dom"
 
 
 function Card({ id, cover, title }) {
-  
-// function handleClick(locationId) {
-//   console.log(`Récupération de l'id :  ${locationId}`)
-// }
+
 
   return (
     

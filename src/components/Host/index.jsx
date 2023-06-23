@@ -1,14 +1,13 @@
 import "./_host.scss"
 
-function Host() {
+function Host(props) {
   return (
     <div>
       <div className="k-host-wrapper">
         <div className='k-host-name'>
-          <h3>Alexandre <br />
-              Dumas</h3>
+          <h3>{props.name}</h3>
         </div>
-        <div className='k-host-img'></div>
+          <img src={props.picture} alt={props.name} className='k-host-img'/>
       </div>
     </div>
   )

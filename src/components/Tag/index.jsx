@@ -1,18 +1,13 @@
 import "./_tag.scss"
 
-function Tag() {
+function Tag(props) {
+  const tags = props.tags 
+  const tagList = tags.map((tag) =>
+    <li key={tag.toString()} className="k-tag">{tag}</li>)
+
+
   return (
-    <div className='k-tag-wrapper'>
-      <div className="k-tag">
-        Cozy
-      </div>
-      <div className="k-tag">
-        Canal
-      </div>
-      <div className="k-tag">
-        Paris 10
-      </div>
-    </div>
+    <ul className='k-tag-wrapper'>{tagList}</ul>
   )
 }
 
