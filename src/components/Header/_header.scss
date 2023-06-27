@@ -26,9 +26,10 @@
 
 @media screen and (max-width: 430px) {
   .k-nav-links {
-   gap: 20px;
+    gap: 20px;
   }
 }
 
-
-
+.k-nav-links a.active {
+  text-decoration: none;
+}

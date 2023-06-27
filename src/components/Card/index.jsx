@@ -11,7 +11,7 @@ function Card({ id, cover, title }) {
     <li className="k-card">
       <div className="k-card-title">{title}</div>
       <div className="k-card-gradient"></div>
-      <img src={cover} alt="cover" className="k-card-img" />
+      <img src={cover} alt={title} className="k-card-img" />
     </li>
     </Link>
   )

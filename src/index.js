@@ -12,9 +12,9 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} /> 
-        <Route path="/about" element={<About />} /> 
-        <Route path="/location/:locationId" element={<Location />} /> 
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/location/:locationId" element={<Location />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>
@@ -22,4 +22,3 @@ root.render(
 );
 
 
- 

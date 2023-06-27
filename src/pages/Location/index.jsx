@@ -14,24 +14,24 @@ import datas from '../../datas/logements.json'
 function Location() {
 
   const locations = datas
-  const {locationId} = useParams()
+  const { locationId } = useParams()
   const locationSelect = locations.find(el => el.id === locationId)
-  
+
   const equipments = locationSelect.equipments.map((equipment) =>
     <li key={equipment.toString()}>{equipment}</li>
   )
-  
 
   return (
-    <div>
+    <>
       <div className="k-wrapper">
         <Header />
         <div className="k-location-wrapper">
-          <Carousel 
-            pictures={locationSelect.pictures}/>
+          <Carousel
+            pictures={locationSelect.pictures}
+            title={locationSelect.title} />
           <div className='k-location-infos'>
             <div className="k-location-left">
-              <NameLocation 
+              <NameLocation
                 title={locationSelect.title}
                 location={locationSelect.location}
               />
@@ -39,30 +39,30 @@ function Location() {
                 tags={locationSelect.tags} />
             </div>
             <div className="k-location-right">
-              <Host 
+              <Host
                 name={locationSelect.host.name}
-                picture={locationSelect.host.picture}  
+                picture={locationSelect.host.picture}
               />
-              <Rating 
-                rating={locationSelect.rating}/>
-            </div> 
-          </div>
-            <div className='k-location-retail'>
-              <div className="k-location-description">
-                <Collapse 
-                  title="Description" 
-                  content={locationSelect.description} />
-              </div>
-              <div className="k-location-equipements">
-                <Collapse 
-                  title="Equipements" 
-                  content=<ul>{equipments}</ul> />
-              </div>
+              <Rating
+                rating={locationSelect.rating} />
             </div>
+          </div>
+          <div className='k-location-retail'>
+            <div className="k-location-description">
+              <Collapse
+                title="Description"
+                content={locationSelect.description} />
+            </div>
+            <div className="k-location-equipements">
+              <Collapse
+                title="Equipements"
+                content=<ul>{equipments}</ul> />
+            </div>
+          </div>
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   )
 }
 

@@ -6,6 +6,7 @@
   height: clamp(111px, 20vw, 223px);
   max-width: 1240px;
   margin-bottom: 30px;
+  min-width: 335px;
 }
 
 .k-banner-img {
@@ -33,5 +34,7 @@
 @media screen and (max-width: 430px) {
   .k-banner-container {
     width: 335px;
+    white-space: pre-wrap;
+    margin-bottom: -20px;
   }
 }

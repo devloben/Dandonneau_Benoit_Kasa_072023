@@ -9,7 +9,7 @@ import LocationsList from "../../components/LocationsList"
 function Home() {
 
   return (
-    <div>
+    <>
       <div className='k-wrapper'>
         <Header />
         <Banner>
@@ -19,7 +19,7 @@ function Home() {
         <LocationsList />
       </div>
       <Footer />
-    </div>
+    </>
   )
 }
 
