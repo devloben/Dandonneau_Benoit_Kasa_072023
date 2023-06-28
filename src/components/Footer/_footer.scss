@@ -3,6 +3,8 @@
 .k-footer-container {
   display: flex;
   justify-content: center;
+  width: 100%;
+  padding-top: 3rem; 
 }
 
 .k-footer {
@@ -15,5 +17,14 @@
   max-width: 1440px;
   background-color: black;
   color: white;
-  font-size: 2.4rem;
+  font-size: clamp(1.5rem, 2.5vw, 2.4rem)
 }
+
+@media screen and (max-width: 415px) {
+  .k-footer-copyright {
+   width: 40%;
+   text-align: center;
+  }
+}
+
+

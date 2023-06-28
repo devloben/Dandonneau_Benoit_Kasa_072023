@@ -2,11 +2,10 @@
 
 .k-banner-container {
   position: relative;
-  width: 100%;
+  width: 86.25%;
   height: clamp(111px, 20vw, 223px);
-  max-width: 1240px;
-  margin-bottom: 30px;
-  min-width: 335px;
+  margin-bottom: 2.5%;
+  overflow: hidden;
 }
 
 .k-banner-img {
@@ -15,7 +14,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  filter: brightness(80%);
+  filter: brightness(75%);
   border-radius: 25px;  
   object-fit: cover;
 }
@@ -28,13 +27,23 @@
   color: white;
   font-weight: 500;
   white-space: nowrap;
-  font-size: clamp(2.5rem, 4.6vw, 5rem);
+  font-size: clamp(2rem, 4.6vw, 5rem);
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 415px) {
   .k-banner-container {
-    width: 335px;
-    white-space: pre-wrap;
-    margin-bottom: -20px;
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .k-banner-img {
+    border-radius: 10px; 
+  }
+
+  .k-banner-title {
+    white-space: normal;
+    left: 40%;
+    width: 189px;
+  transform: translate(-50%, -50%);
   }
 }

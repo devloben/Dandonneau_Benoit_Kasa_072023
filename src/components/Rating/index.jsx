@@ -4,8 +4,8 @@ function Rating(props) {
 
   const fullStars = props.rating
   const emptyStars = 5 - fullStars
-  const fullStarType = <i className="fa-solid fa-star fa-2xl"></i>
-  const emptyStarType = <i className="fa-regular fa-star fa-2xl"></i>  
+  const fullStarType = <i className="fa-solid fa-star"></i>
+  const emptyStarType = <i className="fa-regular fa-star"></i>  
 
   return (
     <div className='k-rating'>

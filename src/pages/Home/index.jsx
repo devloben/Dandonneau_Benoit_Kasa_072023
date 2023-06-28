@@ -13,12 +13,12 @@ function Home() {
       <div className='k-wrapper'>
         <Header />
         <Banner>
-          <img src={imgBanner} className='k-banner-img' alt="Banner" />
+          <img src={imgBanner} className='k-banner-img' alt="Côte rocheuse escarpée enveloppée de brumes" />
           <div className="k-banner-title">Chez vous, partout et ailleurs</div>
         </Banner>
         <LocationsList />
+        <Footer />
       </div>
-      <Footer />
     </>
   )
 }

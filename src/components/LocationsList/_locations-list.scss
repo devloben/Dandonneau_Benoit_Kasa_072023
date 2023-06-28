@@ -6,16 +6,19 @@
   justify-content: center;
   padding: 55px;
   gap: 5rem;
-  max-width: 1240px;
   background-color: $gray;
   border-radius: 25px;
-  width: 100%;
+  width: 86.25%;
   height: auto;
 }
 
-@media screen and (max-width: 430px) {
-  .k-home-container {
-    gap: 20px;
+@media screen and (max-width: 415px) {
+  .k-location-list-wrapper {
     background-color: white;
+    padding: 0;
+    width: 90%;
+    gap: 2rem;
+    grid-template-columns: 100%;
+    justify-items: center;
   }
 }

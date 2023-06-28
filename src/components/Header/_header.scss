@@ -4,16 +4,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  max-width: 1240px;
-  margin-bottom: 46px
+  width: 86.25%;
+  margin-bottom: 2.5%;
 }
 
 .k-nav-links {
-  // font-size: 2.4rem;
   display: flex;
-  gap: 50px;
-  font-size: clamp(1.5rem, 2.5vw, 2.4rem)
+  gap: clamp(2rem, 5vw, 6rem);
+  font-size: clamp(1.2rem, 3vw, 2.4rem)
 }
 
 .k-nav-links a {
@@ -24,12 +22,18 @@
   width: clamp(145px, 20vw, 211px);
 }
 
-@media screen and (max-width: 430px) {
-  .k-nav-links {
-    gap: 20px;
-  }
-}
-
 .k-nav-links a.active {
   text-decoration: none;
 }
+
+@media screen and (max-width: 415px) {
+  .k-nav-container {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .k-nav-links {
+    text-transform: uppercase;
+  }
+}
+

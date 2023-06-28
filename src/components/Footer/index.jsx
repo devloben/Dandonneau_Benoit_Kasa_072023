@@ -10,7 +10,7 @@ function Footer() {
         <Link to="/">
           <img src={logoWhite} alt='logo Kasa' className='k-logo-footer' />
         </Link>
-        <div>
+        <div className="k-footer-copyright">
           © 2020 Kasa. All rights reserved
         </div> 
       </div>
