@@ -25,7 +25,6 @@ const showNavCarousel = pictures.length > 1
       {showNavCarousel && 
         <div className="k-carousel-page-number">{`${currentIndex + 1}/${pictures.length}`}</div>
       }
-      
     </div>
   )
 } 

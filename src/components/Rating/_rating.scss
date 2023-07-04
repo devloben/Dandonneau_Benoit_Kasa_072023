@@ -7,7 +7,6 @@
 }
 
 .k-rating i {
-  
   font-size: clamp(1rem, 2.5vw, 2.5rem)
 }
 
@@ -15,11 +14,10 @@
   .k-rating {
     margin-top: 1rem;
   }
+
   .k-rating i {
     font-size: 1.2rem;
     margin-left: 0;
     margin-right: 0.5rem;
-
   }
-
 }

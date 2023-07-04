@@ -16,7 +16,6 @@ $red: #ff6060;
 $gray: #F6F6F6;
 $black: black;
 
-
 .k-wrapper {
   display: flex;
   justify-content: center;
@@ -27,10 +26,4 @@ $black: black;
   color: $red;
   max-width: 144rem;
   margin: 0 auto;
-}
-
-@media screen and (max-width: 400px) {
-  .k-wrapper {
-    // padding: 20px;
-  }
 }

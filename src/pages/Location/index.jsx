@@ -1,7 +1,7 @@
 import './_location.scss'
-import { useFetch} from '../../utils/hooks'
-import { useParams, Navigate } from 'react-router-dom'
 import { useEffect, useState } from 'react'
+import { useParams, Navigate } from 'react-router-dom'
+import { useFetch} from '../../utils/hooks'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import NameLocation from '../../components/NameLocation'
@@ -51,7 +51,6 @@ function Location() {
           {isLoading ? (
             <div className='loader'></div>
           ) : (
-          
             <div className='k-location-wrapper'>
               <Carousel
                 pictures={locationSelect.pictures}

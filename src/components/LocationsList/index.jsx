@@ -11,13 +11,12 @@ function LocationsList() {
     if (isLoading){
       return <div className='loader'></div>
     }
+  
     const locations = data
     
   if (error) {
     return <span>Oups il y a eu un problème...</span>
   }
-
-  
 
   return (
     <ul className='k-location-list-wrapper'>

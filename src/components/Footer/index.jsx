@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import logoWhite from '../../assets/img/logo_kasa_white.png'
 
 function Footer() {
+  
   return (
     
     <footer className="k-footer-container">

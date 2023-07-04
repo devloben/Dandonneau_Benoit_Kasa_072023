@@ -5,7 +5,6 @@ import Banner from '../../components/Banner'
 import Collapse from '../../components/Collapse'
 import imgBanner from '../../assets/img/apropos.png'
 
-
 function About() {
 
   return (

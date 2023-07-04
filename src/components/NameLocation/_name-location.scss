@@ -4,6 +4,7 @@
   margin-top: 20px;
   line-height: 40px;
 }
+
 .k-name-location h2, h3 {
   font-weight: 500;
 }
@@ -12,6 +13,7 @@
   // font-size: 3.6rem;
   font-size: clamp(2rem, 3vw, 3.6rem)
 }
+
 .k-name-location h3 {
   font-size: 1.8rem;
 }
@@ -29,7 +31,4 @@
   .k-name-location h3 {
     font-size: 1.4rem;
   }
-
-
-
 }

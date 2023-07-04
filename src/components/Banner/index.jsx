@@ -2,6 +2,7 @@ import "./_banner.scss"
 import { useLocation } from 'react-router-dom'
 
 function Banner({children}) {
+
   const locationPage = useLocation()
 
   let className = ''
@@ -13,7 +14,6 @@ function Banner({children}) {
   }
   
   return (
-    
     <div className={className}>
       {children}
     </div>

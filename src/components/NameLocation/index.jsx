@@ -1,6 +1,7 @@
 import "./_name-location.scss"
 
 function NameLocation(props) {
+  
   return (
     <div>
       <div className="k-name-location">
