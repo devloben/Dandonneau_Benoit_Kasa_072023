@@ -1,19 +1,25 @@
 @import '../../styles/setting';
+
+.k-error {
+  width: 86.11%;
+}
+
 .k-error, a {
   color: $red;
   text-align: center;
   
 }
+
 .k-error-404{
-  font-size: 22.8rem;
+  font-size: clamp(10rem, 14vw, 22.8rem);
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 20%;
+  margin-top: 15%;
 }
 
 .k-error-text {
   font-weight: 500;
-  font-size: 3.6rem;
-  margin-bottom: 50px;
+  font-size: clamp(2rem, 3vw, 3.6rem);
 }
 
 .k-error-link {

@@ -2,9 +2,24 @@
 
 .k-rating {
   margin-top: 20px;
+  display: flex;
+  gap:5px
 }
 
 .k-rating i {
-  margin-left: 10px;
+  
   font-size: clamp(1rem, 2.5vw, 2.5rem)
+}
+
+@media screen and (max-width: 415px) {
+  .k-rating {
+    margin-top: 1rem;
+  }
+  .k-rating i {
+    font-size: 1.2rem;
+    margin-left: 0;
+    margin-right: 0.5rem;
+
+  }
+
 }

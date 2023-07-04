@@ -19,3 +19,15 @@
   border-radius: 50%;
   background-color: gray;
 }
+
+@media screen and (max-width: 415px) {
+  .k-host-wrapper {
+    margin-top: 1rem;
+  
+  }
+  .k-host-img {
+    width: 32px;
+    height: 32px;
+  }
+
+}

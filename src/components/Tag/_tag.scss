@@ -3,7 +3,7 @@
 .k-tag-wrapper {
   display: flex;
   gap:10px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .k-tag {
   width: 120px;
@@ -15,4 +15,13 @@
   align-items: center;
   color: white;
   font-size: 1.2rem;
+}
+
+@media screen and (max-width: 415px) {
+  .k-tag {
+    width: 90px;
+    height: 18px;
+    font-size: 0.8rem;
+  }
+
 }

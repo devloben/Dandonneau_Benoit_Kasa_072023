@@ -1,13 +1,16 @@
 @import '../../styles/setting';
 
-.k-collapse-wrapper {
-  max-width: 1023px;
+.k-collapse-container {
+  width: 86.25%;
+  padding: 0 7.5% 0 7.5%;
+  margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 400px) {
-  .k-banner-container {
-    
- 
-    
+@media screen and (max-width: 415px) {
+  .k-collapse-container {
+    width: 90%;
+    padding: 0;
+
   }
+  
 }

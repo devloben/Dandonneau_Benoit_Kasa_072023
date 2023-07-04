@@ -5,11 +5,11 @@ function Carousel({pictures, title}) {
   const [currentIndex, setCurrentIndex] = useState(0)
   
   const handleNext = () => {
-  setCurrentIndex((index) => (index === pictures.length - 1 ? 0 : index + 1))
-}
-const handlePrev = () => {
-  setCurrentIndex((index) => (index === 0 ? pictures.length -1 : index - 1))
-}
+    setCurrentIndex((index) => (index === pictures.length - 1 ? 0 : index + 1))
+  }
+  const handlePrev = () => {
+    setCurrentIndex((index) => (index === 0 ? pictures.length -1 : index - 1))
+  }
 
 const showNavCarousel = pictures.length > 1
 

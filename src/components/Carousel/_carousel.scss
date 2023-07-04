@@ -3,7 +3,8 @@
 .k-carousel-wrapper {
   position: relative;
   max-width: 1240px;
-  height: 415px;
+  height: clamp(255px, 30vw, 415px);
+  max-height: 415px;
   border-radius: 25px;
 }
 
@@ -21,8 +22,8 @@
   justify-content: space-between;
   padding: 20px;
   color: #FFFFFF;
-  font-size: 8rem;
-  top: 14rem;
+  font-size: clamp(2rem, 5vw, 8rem);
+  top: 35%;
 }
 
 .k-carousel-page-number {
@@ -32,4 +33,19 @@
   width: 100%;
   text-align: center;
   bottom: 2rem;
+}
+
+@media screen and (max-width: 415px) {
+ .k-carousel-wrapper {
+   height: clamp(255px, 20vw, 300px);
+ }
+
+ .k-carousel-page-number {
+  visibility: hidden;
+  }
+
+ .k-carousel-nav {
+  font-size: 2.5rem;
+  top: 10rem;
+ }
 }

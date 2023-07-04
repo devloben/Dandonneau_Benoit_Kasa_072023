@@ -1,9 +1,23 @@
 import "./_locations-list.scss"
-import datas from '../../datas/logements.json'
+import { useFetch } from '../../utils/hooks'
 import Card from '../Card'
 
 function LocationsList() {
-  const locations = datas
+
+  const {data, isLoading, error} = useFetch(
+    `http://localhost:3000/logements.json`
+    )
+ 
+    if (isLoading){
+      return <div className='loader'></div>
+    }
+    const locations = data
+    
+  if (error) {
+    return <span>Oups il y a eu un problème...</span>
+  }
+
+  
 
   return (
     <ul className='k-location-list-wrapper'>
@@ -14,21 +28,10 @@ function LocationsList() {
             cover={cover}
             title={title}
           />
-        </div>
+        </div> 
       ))}
     </ul>
   )
 }
 
 export default LocationsList
-
-
-
-
-
-
-
-
-
-
-
