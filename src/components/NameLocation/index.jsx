@@ -1,15 +1,21 @@
 import "./_name-location.scss"
+import PropTypes from 'prop-types'
 
-function NameLocation(props) {
+function NameLocation({title, location}) {
   
   return (
     <div>
       <div className="k-name-location">
-        <h2>{props.title}</h2>
-        <h3>{props.location}</h3>
+        <h2>{title}</h2>
+        <h3>{location}</h3>
       </div>
     </div>
   )
+}
+
+NameLocation.propTypes = {
+  title: PropTypes.string,
+  location: PropTypes.string
 }
 
 export default NameLocation

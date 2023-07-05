@@ -1,5 +1,6 @@
 import "./_collapse.scss"
 import { useState } from "react"
+import PropTypes from 'prop-types'
 
 function Collapse({ title, content }) {
   
@@ -18,4 +19,9 @@ function Collapse({ title, content }) {
   )
 }
 
-export default Collapse    
+Collapse.propTypes = {
+  title: PropTypes.string,
+  content: PropTypes.string
+}
+
+export default Collapse

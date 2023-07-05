@@ -1,9 +1,10 @@
 import "./_carousel.scss"
 import { useState } from "react"
+import PropTypes from 'prop-types'
 
 function Carousel({pictures, title}) {
   const [currentIndex, setCurrentIndex] = useState(0)
-  
+
   const handleNext = () => {
     setCurrentIndex((index) => (index === pictures.length - 1 ? 0 : index + 1))
   }
@@ -29,4 +30,9 @@ const showNavCarousel = pictures.length > 1
   )
 } 
 
-export default Carousel       
+Carousel.propTypes = {
+  pictures: PropTypes.array,
+  title: PropTypes.string
+}
+
+export default Carousel

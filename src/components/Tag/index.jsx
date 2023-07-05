@@ -1,8 +1,7 @@
 import "./_tag.scss"
+import PropTypes from 'prop-types'
 
-function Tag(props) {
-  
-  const tags = props.tags 
+function Tag({tags}) {
 
   const tagList = tags.map((tag) =>
     <li key={tag.toString()} className="k-tag">{tag}</li>)
@@ -12,4 +11,8 @@ function Tag(props) {
   )
 }
 
-export default Tag
+Tag.propTypes = {
+  tags: PropTypes.array
+}
+
+export default Tag 

@@ -1,8 +1,9 @@
 import "./_rating.scss"
+import PropTypes from 'prop-types'
 
-function Rating(props) {
-
-  const fullStars = props.rating
+function Rating({rating}) {
+  
+  const fullStars = rating
   const emptyStars = 5 - fullStars
   const fullStarType = <i className="fa-solid fa-star"></i>
   const emptyStarType = <i className="fa-regular fa-star"></i>  
@@ -18,5 +19,9 @@ function Rating(props) {
     </div>
   )
 }
+
+Rating.propTypes = {
+  rating: PropTypes.string
+} 
 
 export default Rating
