@@ -1,12 +1,16 @@
 import "./_host.scss"
 
 function Host(props) {
+console.log(props.name)
+const [firstName, lastName] = props.name.split(' ')
+console.log(firstName)
+console.log(lastName)
   
   return (
     <div>
       <div className="k-host-wrapper">
         <div className='k-host-name'>
-          <h3>{props.name}</h3>
+          <h3>{firstName}<br />{lastName}</h3> 
         </div>
           <img src={props.picture} alt={props.name} className='k-host-img'/>
       </div>
@@ -14,4 +18,4 @@ function Host(props) {
   )
 }
 
-export default Host
+export default Host 
