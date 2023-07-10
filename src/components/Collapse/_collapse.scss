@@ -35,13 +35,13 @@
   border-radius: 5px;
 }
 
-.active .fa-chevron-up {
-  transform: rotate(180deg);
+.fa-chevron-up {
   transition: all .3s;
   font-size: clamp(2rem, 3vw, 3rem)
 }
 
-.fa-chevron-up {
+.active .fa-chevron-up {
+  transform: rotate(180deg);
   transition: all .3s;
   font-size: clamp(2rem, 3vw, 3rem)
 }

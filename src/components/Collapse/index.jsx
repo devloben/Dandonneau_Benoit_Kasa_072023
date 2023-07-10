@@ -5,9 +5,7 @@ import PropTypes from 'prop-types'
 function Collapse({ title, content }) {
   
   const [active, setActive] = useState(false)
-  const handleToggle = e => {
-    setActive(!active)
-  }
+  const handleToggle = e => setActive(!active)
 
   return ( 
     <div className={`k-collapse-wrapper ${active && "active"}`}>

@@ -1,6 +1,4 @@
 import './_about.scss'
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
 import Banner from '../../components/Banner'
 import Collapse from '../../components/Collapse'
 import imgBanner from '../../assets/img/apropos.png'
@@ -10,7 +8,6 @@ function About() {
   return (
     <>
       <div className='k-wrapper'>
-        <Header />
         <Banner>
           <img src={imgBanner} className='k-banner-img' alt='Paysage de grande vallée glacière avec les montagnes en arrière-plan' />
         </Banner>
@@ -29,7 +26,6 @@ function About() {
             content="La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes." />
         </div>
       </div>
-      <Footer />
     </>
   )
 }
