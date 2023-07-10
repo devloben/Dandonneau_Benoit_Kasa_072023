@@ -3,11 +3,9 @@ import PropTypes from 'prop-types'
 
 
 function Host({name, picture}) {
-console.log(name)
+
 const [firstName, lastName] = name.split(' ')
-console.log(firstName)
-console.log(lastName)
-  
+
   return (
     
     <div>
