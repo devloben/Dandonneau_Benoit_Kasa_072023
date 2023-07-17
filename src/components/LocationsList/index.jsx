@@ -21,13 +21,13 @@ function LocationsList() {
   return (
     <ul className='k-location-list-wrapper'>
       {locations.map(({ id, cover, title }) => (
-        <div key={id}>
+        <li key={id}>
           <Card
             id={id}
             cover={cover}
             title={title}
           />
-        </div> 
+        </li> 
       ))}
     </ul>
   )

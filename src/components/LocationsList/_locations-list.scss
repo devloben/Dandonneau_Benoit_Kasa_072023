@@ -21,5 +21,9 @@
     gap: 2rem;
     grid-template-columns: 100%;
     justify-items: center;
+    border-radius: 10px;
+  }
+  .k-location-list-wrapper li {
+    width: 100%;
   }
 }
