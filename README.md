@@ -1,3 +1,21 @@
+# Créez une application web de location immobilière avec React
+Exercice réalisé dans le cadre de la formation ["Web Développeur"](https://openclassrooms.com/fr/paths/717-developpeur-web#path-tabs) proposé par OpenClassRooms en juin 2023.
+
+## Kasa - Locations Appartements
+
+## Visualisation - Demo
+
+[Visualisez le site Kasa - Locations Appartements](https://devloben.github.io/Dandonneau_Benoit_1_code_optimise_052023/)
+
+## Installation
+
+1. Créez un dossier et y installer ce repository
+1. Rendez-vous dans le repository et faites la commande `yarn start`.
+
+
+![Copie écran de la page d'accueil du site Kasa](https://github.com/devloben/Dandonneau_Benoit_Kasa_072023/tree/main/public/img/copie_ecran_kasa.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
