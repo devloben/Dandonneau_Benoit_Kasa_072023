@@ -13,7 +13,7 @@ Exercice réalisé dans le cadre de la formation ["Web Développeur"](https://op
 1. Rendez-vous dans le repository et faites la commande `yarn start`.
 
 
-![Copie écran de la page d'accueil du site Kasa](https://github.com/devloben/Dandonneau_Benoit_Kasa_072023/tree/main/public/img/copie_ecran_kasa.png)
+![Copie écran de la page d'accueil du site Kasa](https://github.com/devloben/Dandonneau_Benoit_Kasa_072023/blob/main/public/img/copie_ecran_kasa.png)
 
 
 # Getting Started with Create React App
