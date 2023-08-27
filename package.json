@@ -2,7 +2,7 @@
   "name": "react-modele",
   "version": "0.1.0",
   "private": true,
-   "homepage": "https://devloben.github.io/Dandonneau_Benoit_Kasa_072023",
+  "homepage": "https://devloben.github.io/Dandonneau_Benoit_Kasa_072023",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
