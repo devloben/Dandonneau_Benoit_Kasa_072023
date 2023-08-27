@@ -3,10 +3,6 @@ Exercice réalisé dans le cadre de la formation ["Web Développeur"](https://op
 
 ## Kasa - Locations Appartements
 
-## Visualisation - Demo
-
-[Visualisez le site Kasa - Locations Appartements](https://devloben.github.io/Dandonneau_Benoit_Kasa_072023)
-
 ## Installation
 
 1. Créez un dossier et y installer ce repository
